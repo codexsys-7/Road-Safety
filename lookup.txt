@@ -1,0 +1,130 @@
+field name	code/format	label	note
+0	Accident	accident_index	NaN	NaN	unique value for each accident. The accident_i...
+1	Accident	accident_year	NaN	NaN	NaN
+2	Accident	accident_reference	NaN	NaN	In year id used by the police to reference a c...
+3	Accident	longitude	NaN	NaN	Null if not known
+4	Accident	Latitude	NaN	NaN	Null if not known
+5	Accident	accident_severity	1	Fatal	NaN
+6	Accident	accident_severity	2	Serious	NaN
+7	Accident	accident_severity	3	Slight	NaN
+8	Accident	number_of_vehicles	NaN	NaN	NaN
+9	Accident	number_of_casualties	NaN	NaN	NaN
+10	Accident	date	(DD/MM/YYYY)	NaN	NaN
+11	Accident	day_of_week	1	Sunday	NaN
+12	Accident	day_of_week	2	Monday	NaN
+13	Accident	day_of_week	3	Tuesday	NaN
+14	Accident	day_of_week	4	Wednesday	NaN
+15	Accident	day_of_week	5	Thursday	NaN
+16	Accident	day_of_week	6	Friday	NaN
+17	Accident	day_of_week	7	Saturday	NaN
+18	Accident	time	(HH:MM)	NaN	Null if not known
+19	Accident	first_road_class	1	Motorway	NaN
+20	Accident	first_road_class	2	A(M)	NaN
+21	Accident	first_road_class	3	A	NaN
+22	Accident	first_road_class	4	B	NaN
+23	Accident	first_road_class	5	C	NaN
+24	Accident	first_road_class	6	Unclassified	NaN
+25	Accident	first_road_number	1 to 9999	Number range	NaN
+26	Accident	first_road_number	-1	Unknown	NaN
+27	Accident	first_road_number	0	first_road_class is C or Unclassified. These r...	NaN
+28	Accident	road_type	1	Roundabout	NaN
+29	Accident	road_type	2	One way street	NaN
+30	Accident	road_type	3	Dual carriageway	NaN
+31	Accident	road_type	6	Single carriageway	NaN
+32	Accident	road_type	7	Slip road	NaN
+33	Accident	road_type	9	Unknown	NaN
+34	Accident	road_type	12	One way street/Slip road	NaN
+35	Accident	road_type	-1	Data missing or out of range	NaN
+36	Accident	speed_limit	NaN	NaN	20,30,40,50,60,70 are the only valid speed lim...
+37	Accident	speed_limit	-1	Data missing or out of range	NaN
+38	Accident	speed_limit	99	unknown (self reported)	NaN
+39	Accident	junction_detail	0	Not at junction or within 20 metres	NaN
+40	Accident	junction_detail	1	Roundabout	NaN
+41	Accident	junction_detail	2	Mini-roundabout	NaN
+42	Accident	junction_detail	3	T or staggered junction	NaN
+43	Accident	junction_detail	5	Slip road	NaN
+44	Accident	junction_detail	6	Crossroads	NaN
+45	Accident	junction_detail	7	More than 4 arms (not roundabout)	NaN
+46	Accident	junction_detail	8	Private drive or entrance	NaN
+47	Accident	junction_detail	9	Other junction	NaN
+48	Accident	junction_detail	99	unknown (self reported)	NaN
+49	Accident	junction_detail	-1	D	ata missing or out of range	NaN
+50	Accident	junction_control	0	Not at junction or within 20 metres	NaN
+51	Accident	junction_control	1	Authorised person	NaN
+52	Accident	junction_control	2	Auto traffic signal	NaN
+53	Accident	junction_control	3	Stop sign	NaN
+54	Accident	junction_control	4	Give way or uncontrolled	NaN
+55	Accident	junction_control	-1	Data missing or out of range	NaN
+56	Accident	junction_control	9	unknown (self reported)	NaN
+57	Accident	second_road_class	0	Not at junction or within 20 metres	NaN
+58	Accident	second_road_class	1	Motorway	NaN
+59	Accident	second_road_class	2	A(M)	NaN
+60	Accident	second_road_class	3	A	NaN
+61	Accident	second_road_class	4	B	NaN
+62	Accident	second_road_class	5	C	NaN
+63	Accident	second_road_class	6	Unclassified	NaN
+64	Accident	second_road_number	1 to 9999	Number range	NaN
+65	Accident	second_road_number	-1	Unknown	NaN
+66	Accident	second_road_number	0	first_road_class is C or Unclassified. These r...	NaN
+67	Accident	pedestrian_crossing_human_control	0	None within 50 metres	NaN
+68	Accident	pedestrian_crossing_human_control	1	Control by school crossing patrol	NaN
+69	Accident	pedestrian_crossing_human_control	2	Control by other authorised person	NaN
+70	Accident	pedestrian_crossing_human_control	-1	Data missing or out of range	NaN
+71	Accident	pedestrian_crossing_human_control	9	unknown (self reported)	NaN
+72	Accident	pedestrian_crossing_physical_facilities	0	No physical crossing facilities within 50 metres	NaN
+73	Accident	pedestrian_crossing_physical_facilities	1	Zebra	NaN
+74	Accident	pedestrian_crossing_physical_facilities	4	Pelican, puffin, toucan or similar non-junctio...	NaN
+75	Accident	pedestrian_crossing_physical_facilities	5	Pedestrian phase at traffic signal junction	NaN
+76	Accident	pedestrian_crossing_physical_facilities	7	Footbridge or subway	NaN
+77	Accident	pedestrian_crossing_physical_facilities	8	Central refuge	NaN
+78	Accident	pedestrian_crossing_physical_facilities	-1	Data missing or out of range	NaN
+79	Accident	pedestrian_crossing_physical_facilities	9	unknown (self reported)	NaN
+80	Accident	light_conditions	1	Daylight	NaN
+81	Accident	light_conditions	4	Darkness - lights lit	NaN
+82	Accident	light_conditions	5	Darkness - lights unlit	NaN
+83	Accident	light_conditions	6	Darkness - no lighting	NaN
+84	Accident	light_conditions	7	Darkness - lighting unknown	NaN
+85	Accident	light_conditions	-1	Data missing or out of range	NaN
+86	Accident	weather_conditions	1	Fine no high winds	NaN
+87	Accident	weather_conditions	2	Raining no high winds	NaN
+88	Accident	weather_conditions	3	Snowing no high winds	NaN
+89	Accident	weather_conditions	4	Fine + high winds	NaN
+90	Accident	weather_conditions	5	Raining + high winds	NaN
+91	Accident	weather_conditions	6	Snowing + high winds	NaN
+92	Accident	weather_conditions	7	Fog or mist	NaN
+93	Accident	weather_conditions	8	Other	NaN
+94	Accident	weather_conditions	9	Unknown	NaN
+95	Accident	weather_conditions	-1	Data missing or out of range	NaN
+96	Accident	road_surface_conditions	1	Dry	NaN
+97	Accident	road_surface_conditions	2	Wet or damp	NaN
+98	Accident	road_surface_conditions	3	Snow	NaN
+99	Accident	road_surface_conditions	4	Frost or ice	NaN
+100	Accident	road_surface_conditions	5	Flood over 3cm. deep	NaN
+101	Accident	road_surface_conditions	6	Oil or diesel	NaN
+102	Accident	road_surface_conditions	7	Mud	NaN
+103	Accident	road_surface_conditions	-1	Data missing or out of range	NaN
+104	Accident	road_surface_conditions	9	unknown (self reported)	NaN
+105	Accident	special_conditions_at_site	0	None	NaN
+106	Accident	special_conditions_at_site	1	Auto traffic signal - out	NaN
+107	Accident	special_conditions_at_site	2	Auto signal part defective	NaN
+108	Accident	special_conditions_at_site	3	Road sign or marking defective or obscured	NaN
+109	Accident	special_conditions_at_site	4	Roadworks	NaN
+110	Accident	special_conditions_at_site	5	Road surface defective	NaN
+111	Accident	special_conditions_at_site	6	Oil or diesel	NaN
+112	Accident	special_conditions_at_site	7	Mud	NaN
+113	Accident	special_conditions_at_site	-1	Data missing or out of range	NaN
+114	Accident	special_conditions_at_site	9	unknown (self reported)	NaN
+115	Accident	carriageway_hazards	0	None	NaN
+116	Accident	carriageway_hazards	1	Vehicle load on road	NaN
+117	Accident	carriageway_hazards	2	Other object on road	NaN
+118	Accident	carriageway_hazards	3	Previous accident	NaN
+119	Accident	carriageway_hazards	4	Dog on road	NaN
+120	Accident	carriageway_hazards	5	Other animal on road	NaN
+121	Accident	carriageway_hazards	6	Pedestrian in carriageway - not injured	NaN
+122	Accident	carriageway_hazards	7	Any animal in carriageway (except ridden horse)	NaN
+123	Accident	carriageway_hazards	-1	Data missing or out of range	NaN
+124	Accident	carriageway_hazards	9	unknown (self reported)	NaN
+125	Accident	urban_or_rural_area	1	Urban	field introduced in 1994
+126	Accident	urban_or_rural_area	2	Rural	field introduced in 1994
+127	Accident	urban_or_rural_area	3	Unallocated	field introduced in 1994
+128	Accident	urban_or_rural_area	-1	Data missing or out of range	field introduced in 1994
